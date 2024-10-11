@@ -1,0 +1,19 @@
+{
+    "name": "jhonn/php-pro",
+    "description": "php-profissional",
+    "autoload": {
+        "files": [
+            "app/helpers/constants.php"
+        ],
+        "psr-4": {
+            "App\\": "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "JhonneAmorim",
+            "email": "jhonneamorimdev@gmail.com"
+        }
+    ],
+    "require": {}
+}
