@@ -2,5 +2,6 @@
 return [
     '/' => 'home@index',
     '/user/create' => 'user@create',
-    '/user/[a-z0-9]+' => 'user@index',
+    '/user/[0-9]+' => 'user@index',
+    '/user/[0-9]+/name/[a-z]+' => 'user@show',
 ];
